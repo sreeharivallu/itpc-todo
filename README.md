@@ -38,7 +38,8 @@ Endpoint: todo/create
 
 Input:
   {todo_name : "Attend meeting with Microsoft CEO"}
-Authorization with JWT token is mandatory.
+  
+**Authorization with JWT token is mandatory**
 
 **3. get TODO:**
 Method: GET
