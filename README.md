@@ -63,9 +63,7 @@ Status 200 {
      
      
 Heroku deployment
-https://my-mail-center.herokuapp.com/email
-
-Heroku deployment. 
+https://itpc-todo.herokuapp.com/
 
 Test mail Ids:
 
