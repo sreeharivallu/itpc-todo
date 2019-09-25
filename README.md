@@ -1,19 +1,21 @@
 # itpc-todo
 Todo app for itpc
 
-#How to Run
+### How to Run
+
 npm install
+
 npm run start (or) node app.js
 
-APIs
+## APIs
 
-1. Login:
+**1. Login:**
 
-. Method: POST
+Method: POST
 
-. Endpoint: /todo/login
+ Endpoint: /todo/login
 
-. Input
+ Input
 
 {"email": "sree.bobby4u@gmail.com"}
 
@@ -21,23 +23,27 @@ Success Response:
 Status 200 {
 token: "JWToken" }
 
-Possible failure Responses
+Possible failure Responses"
+
 Status 401
 {
     "message": "user doesn't exist in our database"
 }
 
-2. Create TODO:
+**2. Create TODO:**
 
-.Method: POST
-.Endpoint: todo/create
-.Input
+Method: POST
+
+Endpoint: todo/create
+
+Input:
   {todo_name : "Attend meeting with Microsoft CEO"}
 Authorization with JWT token is mandatory.
 
-3. get TODO:
-.Method: GET
-.Endpoint: todo/read
+**3. get TODO:**
+Method: GET
+
+Endpoint: todo/read
 
 Success Response:
 Status 200 {
@@ -50,27 +56,31 @@ Status 200 {
 ]
 }
 
-4. update Todo
-   .Method: PUT
-   .Endpoint: todo/update/:todo_id
-   .Input
-      {todo_name: "Meeting with Google CEO"}
+**4. update Todo**
+   Method: PUT
+   
+   Endpoint: todo/update/:todo_id
+   
+   Input:  {todo_name: "Meeting with Google CEO"}
 
 
-5. delete Todo
-     .Method: DELETE
-     .endpoint: todo/delete/:todo_id
+**5. delete Todo**
+     Method: DELETE
+     
+     endpoint: todo/delete/:todo_id
      
      
-Heroku deployment
+## Heroku deployment
+
 https://itpc-todo.herokuapp.com/
 
-Test mail Ids:
+**Test mail Ids:**
 
 sree.bobby4u@gmail.com
+
 bhavesh.vallu@gmail.com
 
-#TODOs
-Due to time constraint, test cases are written. Test cases inlcuding negative test cases has to be written. 
+## TODOs
+Due to time constraint, test cases are written. Test cases inlcuding negative test cases has to be written.
 
 Just written config for one environment. Improvements has to be done deploy based on environment like Dev, Test and Prod.
