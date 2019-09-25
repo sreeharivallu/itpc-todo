@@ -82,6 +82,6 @@ sree.bobby4u@gmail.com
 bhavesh.vallu@gmail.com
 
 ## TODOs
-Due to time constraint, test cases are written. Test cases inlcuding negative test cases has to be written.
+Due to time constraint, test cases are not written. Test cases inlcuding negative test cases has to be written.
 
 Just written config for one environment. Improvements has to be done deploy based on environment like Dev, Test and Prod.
