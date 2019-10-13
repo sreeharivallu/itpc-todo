@@ -4,6 +4,7 @@ var env = process.env.NODE_ENV || 'dev'
 var config = {
         dev : {
             connection_params: {
+                connectionLimit: 10,
                 host     : process.env.DB_HOST,
                 user     : process.env.DB_USER,
                 password : process.env.DB_PASSWORD,
