@@ -82,6 +82,7 @@ sree.bobby4u@gmail.com
 bhavesh.vallu@gmail.com
 
 ## TODOs
-Due to time constraint, test cases are not written. Test cases inlcuding negative test cases has to be written.
-
-Just written config for one environment. Improvements has to be done deploy based on environment like Dev, Test and Prod.
+1. Due to time constraint, test cases are not written. Test cases inlcuding negative test cases has to be written.
+2. Just written config for one environment. Improvements has to be done deploy based on environment like Dev, Test and Prod.
+3. Add Helmet module
+4. Remove routes.js and move the code to index.js
